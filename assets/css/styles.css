@@ -268,7 +268,7 @@ body.dark-theme {
 }
 .home__img {
   width: 255px;
-  transform: translateY(1px);
+  transform: translateY(270px);
 }
 .home__star-1,
 .home__star-2 {
@@ -514,6 +514,7 @@ body.dark-theme {
   }
   .home__img {
     width: 245px;
+    transform: translateY(250px);
   }
   .home__star-1,
   .home__star-2 {
