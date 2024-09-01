@@ -1,325 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ========== FAVICON ========== -->
-    <link href="/assets/img/favicon.ico" rel="icon" type="image/x-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== REMIXICONS ===============-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="" />
+  <!-- ========== FAVICON ========== -->
+  <link href="/assets/img/favicon.ico" rel="icon" type="image/x-icon" />
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="" />
 
-    <title>Responsive CV</title>
-  </head>
-  <body>
-    <div class="resume container">
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-        <nav class="nav container">
-          <a href="#" class="nav__logo">Issued</a>
-          <div class="nav__menu">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#home" class="nav__link active-link">
-                  <i class="ri-home-line"></i>
-                </a>
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Responsive CV</title>
+</head>
+
+<body>
+  <div class="resume container">
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Issued</a>
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="ri-home-line"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="ri-shield-user-line"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="ri-file-list-3-line"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="ri-git-repository-line"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="ri-briefcase-3-line"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- dark/gray theme -->
+        <i class="ri-contrast-2-line change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="resume__main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container grid">
+          <h1 class="home__name">
+            SIMONE
+            <br />
+            ZANON
+          </h1>
+          <div class="home__blob">
+            <div class="home__perfil">
+              <img src="assets/img/me.jpg" alt="home image" class="home__img" />
+            </div>
+
+            <svg class="home__star-1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+              <path d="M25 0L31.7523 18.2477L50 25L31.7523 31.7523L25 
+                50L18.2477 31.7523L0 25L18.2477 18.2477L25 0Z" />
+            </svg>
+            <svg class="home__star-2" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+              <path d="M25 0L31.7523 18.2477L50 25L31.7523 31.7523L25 
+              50L18.2477 31.7523L0 25L18.2477 18.2477L25 0Z" />
+            </svg>
+          </div>
+
+          <h1 class="home__profession">
+            FRONTEND
+            <br />
+            DEVELOPER
+          </h1>
+        </div>
+      </section>
+
+      <div class="resume__left">
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+          <h2 class="section__title">PERSONAL INFO</h2>
+
+          <div class="about__container grid">
+            <p>
+              Mi chiamo Simone Zanon e vivo a Venezia 🇮🇹
+              <br />
+              Sono un frontend developer con istruzione universitaria.
+              <br />
+              Adoro rimanere costantemente al passo con gli ultimi trend del web e rendere l'esperienza utente intuitiva
+              attraverso interfacce su
+              misura.
+            </p>
+            <a href="assets/pdf/CV - 2024 - Simone Zanon.pdf" download="" class="about__button">
+              Download CV
+              <i class="ri-download-line"></i>
+            </a>
+
+            <ul class="about__social">
+              <li>
+                <a href="https://github.com/eyeleren" target="_blank" class="about__social-link">Github</a>
               </li>
-              <li class="nav__item">
-                <a href="#about" class="nav__link">
-                  <i class="ri-shield-user-line"></i>
-                </a>
-              </li>
-              <li class="nav__item">
-                <a href="#skills" class="nav__link">
-                  <i class="ri-file-list-3-line"></i>
-                </a>
-              </li>
-              <li class="nav__item">
-                <a href="#education" class="nav__link">
-                  <i class="ri-git-repository-line"></i>
-                </a>
-              </li>
-              <li class="nav__item">
-                <a href="#work" class="nav__link">
-                  <i class="ri-briefcase-3-line"></i>
-                </a>
+              <li>
+                <a href="https://www.linkedin.com/in/simone-zanon-a9b5841a9/" target="_blank"
+                  class="about__social-link">LinkedIn</a>
               </li>
             </ul>
           </div>
-
-          <!-- dark/gray theme -->
-          <i class="ri-contrast-2-line change-theme" id="theme-button"></i>
-        </nav>
-      </header>
-
-      <!--==================== MAIN ====================-->
-      <main class="resume__main">
-        <!--==================== HOME ====================-->
-        <section class="home" id="home">
-          <div class="home__container grid">
-            <h1 class="home__name">
-              SIMONE
-              <br />
-              ZANON
-            </h1>
-            <div class="home__blob">
-              <div class="home__perfil">
-                <img src="assets/img/nobg1.png" alt="home image" class="home__img" />
-              </div>
-
-              <svg class="home__star-1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M25 0L31.7523 18.2477L50 25L31.7523 31.7523L25 
-                50L18.2477 31.7523L0 25L18.2477 18.2477L25 0Z" />
-              </svg>
-              <svg class="home__star-2" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M25 0L31.7523 18.2477L50 25L31.7523 31.7523L25 
-              50L18.2477 31.7523L0 25L18.2477 18.2477L25 0Z" />
-              </svg>
-            </div>
-
-            <h1 class="home__profession">
-              FRONTEND
-              <br />
-              DEVELOPER
-            </h1>
-          </div>
         </section>
 
-        <div class="resume__left">
-          <!--==================== ABOUT ====================-->
-          <section class="about section" id="about">
-            <h2 class="section__title">PERSONAL INFO</h2>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+          <h2 class="section__title">SKILLS</h2>
 
-            <div class="about__container grid">
-              <p>
-                Mi chiamo Simone Zanon e vivo a Venezia 🇮🇹
-                <br />
-                Sono un frontend developer con istruzione universitaria.
-                <br />
-                Adoro rimanere costantemente al passo con gli ultimi trend del web e rendere l'esperienza utente intuitiva attraverso interfacce su
-                misura.
-              </p>
-              <a href="assets/pdf/CV - 2024 - Simone Zanon.pdf" download="" class="about__button">
-                Download CV
-                <i class="ri-download-line"></i>
-              </a>
-
-              <ul class="about__social">
-                <li>
-                  <a href="https://github.com/eyeleren" target="_blank" class="about__social-link">Github</a>
+          <div class="skills__container">
+            <div class="skills__content">
+              <ul class="skills__list">
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">HTML</i>
                 </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/simone-zanon-a9b5841a9/" target="_blank" class="about__social-link">LinkedIn</a>
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">CSS</i>
+                </li>
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">JS</i>
+                </li>
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">Angular</i>
+                </li>
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">GIT & Github</i>
+                </li>
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">Pimcore</i>
+                </li>
+              </ul>
+              <ul class="skills__list">
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">Bootstrap</i>
+                </li>
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">Nodejs</i>
+                </li>
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">Postman</i>
+                </li>
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">Express</i>
+                </li>
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">VSCode</i>
+                </li>
+                <li class="resume__title">
+                  <i class="ri-arrow-right-s-line">PHP</i>
                 </li>
               </ul>
             </div>
-          </section>
+          </div>
+        </section>
 
-          <!--==================== SKILLS ====================-->
-          <section class="skills section" id="skills">
-            <h2 class="section__title">SKILLS</h2>
-
-            <div class="skills__container">
-              <div class="skills__content">
-                <ul class="skills__list">
-                  <li class="resume__title">
-                    <i class="ri-arrow-right-s-line">HTML</i>
-                  </li>
-                  <li class="resume__title">
-                    <i class="ri-arrow-right-s-line">CSS</i>
-                  </li>
-                  <li class="resume__title">
-                    <i class="ri-arrow-right-s-line">JS</i>
-                  </li>
-                  <li class="resume__title">
-                    <i class="ri-arrow-right-s-line">Angular</i>
-                  </li>
-                  <li class="resume__title">
-                    <i class="ri-arrow-right-s-line">GIT & Github</i>
-                  </li>
-                </ul>
-                <ul class="skills__list">
-                  <li class="resume__title">
-                    <i class="ri-arrow-right-s-line">Bootstrap</i>
-                  </li>
-                  <li class="resume__title">
-                    <i class="ri-arrow-right-s-line">Nodejs</i>
-                  </li>
-                  <li class="resume__title">
-                    <i class="ri-arrow-right-s-line">Postman</i>
-                  </li>
-                  <li class="resume__title">
-                    <i class="ri-arrow-right-s-line">Express</i>
-                  </li>
-                  <li class="resume__title">
-                    <i class="ri-arrow-right-s-line">VSCode</i>
-                  </li>
-                </ul>
+        <!--==================== EDUCATION ====================-->
+        <section class="education section" id="education">
+          <h2 class="section__title">EDUCATION</h2>
+          <div class="education__container grid">
+            <!-- 1 -->
+            <div>
+              <h2 class="resume__title">
+                <i class="ri-arrow-right-s-line">Diploma Liceo Scientifico</i>
+              </h2>
+              <div class="resume__data">
+                <span>Liceo Scientifico Ugo Morin</span>
+                <span>2010 - 2015</span>
+                <a href="#" target="_blank" class="resume__button-link">
+                  View
+                  <i class="ri-external-link-line"></i>
+                </a>
               </div>
             </div>
-          </section>
-
-          <!--==================== EDUCATION ====================-->
-          <section class="education section" id="education">
-            <h2 class="section__title">EDUCATION</h2>
-            <div class="education__container grid">
-              <!-- 1 -->
-              <div>
-                <h2 class="resume__title">
-                  <i class="ri-arrow-right-s-line">Diploma Liceo Scientifico</i>
-                </h2>
-                <div class="resume__data">
-                  <span>Liceo Scientifico Ugo Morin</span>
-                  <span>2010 - 2015</span>
-                  <a href="#" target="_blank" class="resume__button-link">
-                    View
-                    <i class="ri-external-link-line"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- 2 -->
-              <div>
-                <h2 class="resume__title">
-                  <i class="ri-arrow-right-s-line">Laurea in Informatica</i>
-                </h2>
-                <div class="resume__data">
-                  <span>Università Ca'Foscari di Venezia</span>
-                  <span>2015 - 2024</span>
-                  <a href="#" target="_blank" class="resume__button-link">
-                    View
-                    <i class="ri-external-link-line"></i>
-                  </a>
-                </div>
+            <!-- 2 -->
+            <div>
+              <h2 class="resume__title">
+                <i class="ri-arrow-right-s-line">Laurea in Informatica</i>
+              </h2>
+              <div class="resume__data">
+                <span>Università Ca'Foscari di Venezia</span>
+                <span>2015 - 2024</span>
+                <a href="#" target="_blank" class="resume__button-link">
+                  View
+                  <i class="ri-external-link-line"></i>
+                </a>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
+      </div>
+
+      <div class="resume__right">
+        <!--==================== WORK ====================-->
+        <section class="work section" id="work">
+          <h2 class="section__title">WORK EXPERIENCE</h2>
+          <div class="work__container grid">
+            <!-- 0  -->
+            <div>
+              <h2 class="resume__title">
+                <i class="ri-arrow-right-s-line">Stage@Jakala</i>
+              </h2>
+              <div class="resume__data">
+                <span>Jakala - @H-FARM / 2024</span>
+                <p>
+                  Gestione progetti in Pimcore, utilizzo di Php, Twig, Html, Css e Javascript
+                </p>
+              </div>
+            </div>
+            <!-- 1  -->
+            <div>
+              <h2 class="resume__title">
+                <i class="ri-arrow-right-s-line">Web Developer Academy</i>
+              </h2>
+              <div class="resume__data">
+                <span>Alpenite s.r.l. - Venezia / 2023</span>
+                <p>
+                  Argomenti trattati:
+                  <br />
+                  HTML, Bootstrap, CSS e SCSS, JS, utilizzo e manipolazione API, node.js ed Express, stesura di workflow
+                  architetturali, SCC e
+                  Magento, versionamento GIT e Github, Postman
+                </p>
+              </div>
+            </div>
+            <!-- 2  -->
+            <div>
+              <h2 class="resume__title">
+                <i class="ri-arrow-right-s-line">Addetto Terminal Porto di Venezia</i>
+              </h2>
+              <div class="resume__data">
+                <span>VTA Venezia - Venezia / 2019 - 2020</span>
+                <p>Addetto ai terminal e supporto navi da crociera</p>
+              </div>
+            </div>
+            <!-- 3  -->
+            <div>
+              <h2 class="resume__title">
+                <i class="ri-arrow-right-s-line">Pizza Delivery</i>
+              </h2>
+              <div class="resume__data">
+                <span>La nuova arte della pizza - Venezia / 2016 - 2019</span>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--==================== CERTIFICATES ====================-->
+        <section class="certificates section">
+          <h2 class="section__title">CERTIFICATI</h2>
+
+          <div class="certificates__container grid">
+            <!-- 1  -->
+            <div>
+              <h2 class="resume__title">
+                <i class="ri-arrow-right-s-line">Web Developer Academy</i>
+              </h2>
+              <div class="resume__data">
+                <span>Alpenite - 2023</span>
+                <a href="assets/pdf/zs-alp.pdf" target="_blank" class="resume__button-link">
+                  View
+                  <i class="ri-external-link-line"></i>
+                </a>
+              </div>
+            </div>
+            <!-- 2  -->
+            <div>
+              <h2 class="resume__title">
+                <i class="ri-arrow-right-s-line">Corso sicurezza sul lavoro</i>
+              </h2>
+              <div class="resume__data">
+                <span>Umanaform - 2023</span>
+                <a href="assets/pdf/zs-sic.pdf" target="_blank" class="resume__button-link">
+                  View
+                  <i class="ri-external-link-line"></i>
+                </a>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div>
+              <h2 class="resume__title">
+                <i class="ri-arrow-right-s-line">Lingua inglese B2</i>
+              </h2>
+              <div class="resume__data">
+                <span>Centro linguistico di Ateneo - Ca'Foscari - 2021</span>
+                <a href="assets/pdf/BadgeB2.png" target="_blank" class="resume__button-link">
+                  View
+                  <i class="ri-external-link-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container grid">
+        <div>
+          <h3 class="footer__title">TELEFONO</h3>
+          <span class="footer__info">(+39) 331 8842693</span>
         </div>
 
-        <div class="resume__right">
-          <!--==================== WORK ====================-->
-          <section class="work section" id="work">
-            <h2 class="section__title">WORK EXPERIENCE</h2>
-            <div class="work__container grid">
-              <!-- 1  -->
-              <div>
-                <h2 class="resume__title">
-                  <i class="ri-arrow-right-s-line">Web Developer Academy</i>
-                </h2>
-                <div class="resume__data">
-                  <span>Alpenite s.r.l. - Venezia / 2023</span>
-                  <p>
-                    Argomenti trattati:
-                    <br />
-                    HTML, Bootstrap, CSS e SCSS, JS, utilizzo e manipolazione API, node.js ed Express, stesura di workflow architetturali, SCC e
-                    Magento, versionamento GIT e Github, Postman
-                  </p>
-                </div>
-              </div>
-              <!-- 2  -->
-              <div>
-                <h2 class="resume__title">
-                  <i class="ri-arrow-right-s-line">Addetto Terminal Porto di Venezia</i>
-                </h2>
-                <div class="resume__data">
-                  <span>VTA Venezia - Venezia / 2019 - 2020</span>
-                  <p>Addetto ai terminal e supporto navi da crociera</p>
-                </div>
-              </div>
-              <!-- 3  -->
-              <div>
-                <h2 class="resume__title">
-                  <i class="ri-arrow-right-s-line">Pizza Delivery</i>
-                </h2>
-                <div class="resume__data">
-                  <span>La nuova arte della pizza - Venezia / 2016 - 2019</span>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!--==================== CERTIFICATES ====================-->
-          <section class="certificates section">
-            <h2 class="section__title">CERTIFICATI</h2>
-
-            <div class="certificates__container grid">
-              <!-- 1  -->
-              <div>
-                <h2 class="resume__title">
-                  <i class="ri-arrow-right-s-line">Web Developer Academy</i>
-                </h2>
-                <div class="resume__data">
-                  <span>Alpenite - 2023</span>
-                  <a href="assets/pdf/zs-alp.pdf" target="_blank" class="resume__button-link">
-                    View
-                    <i class="ri-external-link-line"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- 2  -->
-              <div>
-                <h2 class="resume__title">
-                  <i class="ri-arrow-right-s-line">Corso sicurezza sul lavoro</i>
-                </h2>
-                <div class="resume__data">
-                  <span>Umanaform - 2023</span>
-                  <a href="assets/pdf/zs-sic.pdf" target="_blank" class="resume__button-link">
-                    View
-                    <i class="ri-external-link-line"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- 3 -->
-              <div>
-                <h2 class="resume__title">
-                  <i class="ri-arrow-right-s-line">Lingua inglese B2</i>
-                </h2>
-                <div class="resume__data">
-                  <span>Centro linguistico di Ateneo - Ca'Foscari - 2021</span>
-                  <a href="assets/pdf/BadgeB2.png" target="_blank" class="resume__button-link">
-                    View
-                    <i class="ri-external-link-line"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
+        <div>
+          <h3 class="footer__title">Email</h3>
+          <span class="footer__info">simone.zanon@gmail.com</span>
         </div>
-      </main>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-        <div class="footer__container grid">
-          <div>
-            <h3 class="footer__title">TELEFONO</h3>
-            <span class="footer__info">(+39) 331 8842693</span>
-          </div>
-
-          <div>
-            <h3 class="footer__title">Email</h3>
-            <span class="footer__info">simone.zanon@gmail.com</span>
-          </div>
-
-          <div>
-            <h3 class="footer__title">Website</h3>
-            <a href="https://issued.vercel.app/" target="_blank" class="footer__link">https://issued.vercel.app/</a>
-          </div>
+        <div>
+          <h3 class="footer__title">Website</h3>
+          <a href="https://issued.vercel.app/" target="_blank" class="footer__link">https://issued.vercel.app/</a>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
+  </div>
 
-    <!--========== SCROLL UP ==========-->
-    <a href="" class="scrollup" id="scroll-up">
-      <i class="ri-arrow-up-line"></i>
-    </a>
+  <!--========== SCROLL UP ==========-->
+  <a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>

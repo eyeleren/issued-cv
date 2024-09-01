@@ -83,7 +83,7 @@ img {
 
 /*=============== THEME ===============*/
 .change-theme {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   color: var(--title-color);
   cursor: pointer;
 }
@@ -145,7 +145,7 @@ body.dark-theme {
   margin-bottom: 0.25rem;
 }
 .resume__title i {
-  font-size: 1.25rem;
+  font-size: 1.05rem;
 }
 
 .resume__data {
@@ -267,8 +267,8 @@ body.dark-theme {
   overflow: hidden;
 }
 .home__img {
-  width: 255px;
-  transform: translateY(270px);
+  width: 300px;
+  transform: translateY(50px);
 }
 .home__star-1,
 .home__star-2 {
@@ -513,8 +513,8 @@ body.dark-theme {
     height: 320px;
   }
   .home__img {
-    width: 245px;
-    transform: translateY(250px);
+    width: 300px;
+    transform: translateY(60px);
   }
   .home__star-1,
   .home__star-2 {
